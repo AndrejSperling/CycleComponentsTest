@@ -1,0 +1,31 @@
+{
+  "name": "CycleComponentsTest",
+  "version": "1.0.0",
+  "description": "Just a test repo",
+  "main": "lib/index",
+  "types": "lib/index",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrejSperling/CycleComponentsTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrejSperling/CycleComponentsTest/issues"
+  },
+  "homepage": "https://github.com/AndrejSperling/CycleComponentsTest#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "@cycle/dom": "^17.1.0",
+    "xstream": "^10.7.0"
+  }
+}
